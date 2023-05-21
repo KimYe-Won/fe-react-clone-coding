@@ -50,7 +50,7 @@ const HeaderB = styled.button`
   width: 150px;
   height: 40px;
   background-color: #007bff;
-  color: #fff;
+  color: #ffffff;
   font-size:15px;
   margin-right: 5px;
   border: none;

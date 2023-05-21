@@ -11,21 +11,21 @@ const ExBox = styled.div`
   justify-content: center;
   margin: 100px;
   border-radius: 5px;
-`;
+`
 
 const ExBody = styled.div`
   height: 400px;
-  margin: 0.9rem 1rem;
+  margin: 14.4px 16px;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.2rem;
+  border-radius: 3.2px;
   box-shadow: 0.5px 0.5px 2px 0.5px #dadce0;
-`;
+`
 
-const ExImg = styled.div`
+const ExPic = styled.div`
   width: 350px;
   height: 230px;
-  border-top-right-radius: 0.2rem;
-  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 3.2px;
+  border-top-left-radius: 3.2px;
   background-position: center;
   background-size: contain;
   background-color: #55595C;
@@ -42,11 +42,11 @@ const ExTxt = styled.div`
   background: white;
 `;
 
-const ExMainText = styled.p`
-  font-size: 1rem;
+const ExMainTxt = styled.p`
+  font-size: 16px;
   position: relative;
-  margin: 1rem;
-  line-height: 1.5rem;
+  margin: 16px;
+  line-height: 24px;
 `;
 
 const ExDown = styled.div`
@@ -54,9 +54,9 @@ const ExDown = styled.div`
   justify-content: space-between;
 `;
 
-const CardTime = styled.p`
-  font-size: 0.8rem;
-  margin: 0.5rem 1rem;
+const ExTime = styled.p`
+  font-size: 14.8px;
+  margin: 8px 16px;
   color: #6c757d;
 `;
 
@@ -67,128 +67,119 @@ const Ex = () => {
     <ExBox>
 
       <ExBody>
-        <ExImg>Thumbnail</ExImg>
+        <ExPic>Thumbnail</ExPic>
         <ExTxt>
           <ExMainTxt>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </ExMainTxt>
           <ExDown>
           <Button />
-            <CardTime>9 mins</CardTime>
+            <ExTime>9 mins</ExTime>
           </ExDown>
         </ExTxt>
       </ExBody>
 
       <ExBody>
-        <ExImg>Thumbnail</ExImg>
+        <ExPic>Thumbnail</ExPic>
         <ExTxt>
           <ExMainTxt>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </ExMainTxt>
           <ExDown>
           <Button />
-            <CardTime>9 mins</CardTime>
+            <ExTime>9 mins</ExTime>
           </ExDown>
         </ExTxt>
       </ExBody>
 
       <ExBody>
-      <ExImg>Thumbnail</ExImg>
+      <ExPic>Thumbnail</ExPic>
         <ExTxt>
           <ExMainTxt>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </ExMainTxt>
           <ExDown>
           <Button />
-            <CardTime>9 mins</CardTime>
+            <ExTime>9 mins</ExTime>
           </ExDown>
         </ExTxt>
       </ExBody>
 
       <ExBody>
-      <ExImg>Thumbnail</ExImg>
+      <ExPic>Thumbnail</ExPic>
         <ExTxt>
           <ExMainTxt>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </ExMainTxt>
-          <CardDown>
+          <ExDown>
           <Button />
-            <CardTime>9 mins</CardTime>
-          </CardDown>
+            <ExTime>9 mins</ExTime>
+          </ExDown>
         </ExTxt>
       </ExBody>
 
       <ExBody>
-      <ExImg>Thumbnail</ExImg>
+      <ExPic>Thumbnail</ExPic>
         <ExTxt>
           <ExMainTxt>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </ExMainTxt>
-          <CardDown>
+          <ExDown>
           <Button />
-            <CardTime>9 mins</CardTime>
-          </CardDown>
+            <ExTime>9 mins</ExTime>
+          </ExDown>
         </ExTxt>
       </ExBody>
 
       <ExBody>
-      <ExImg>Thumbnail</ExImg>
+      <ExPic>Thumbnail</ExPic>
         <ExTxt>
           <ExMainTxt>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </ExMainTxt>
-          <CardDown>
+          <ExDown>
           <Button />
-            <CardTime>9 mins</CardTime>
-          </CardDown>
+            <ExTime>9 mins</ExTime>
+          </ExDown>
         </ExTxt>
       </ExBody>
 
       <ExBody>
-      <ExImg>Thumbnail</ExImg>
+      <ExPic>Thumbnail</ExPic>
         <ExTxt>
           <ExMainTxt>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </ExMainTxt>
-          <CardDown>
+          <ExDown>
           <Button />
-            <CardTime>9 mins</CardTime>
-          </CardDown>
+            <ExTime>9 mins</ExTime>
+          </ExDown>
         </ExTxt>
       </ExBody>
 
       <ExBody>
-      <ExImg>Thumbnail</ExImg>
+      <ExPic>Thumbnail</ExPic>
         <ExTxt>
           <ExMainTxt>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </ExMainTxt>
-          <CardDown>
+          <ExDown>
           <Button />
-            <CardTime>9 mins</CardTime>
-          </CardDown>
+            <ExTime>9 mins</ExTime>
+          </ExDown>
         </ExTxt>
       </ExBody>
 
       <ExBody>
-      <ExImg>Thumbnail</ExImg>
+      <ExPic>Thumbnail</ExPic>
         <ExTxt>
           <ExMainTxt>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </ExMainTxt>
-          <CardDown>
+          <ExDown>
           <Button />
-            <CardTime>9 mins</CardTime>
-          </CardDown>
+            <ExTime>9 mins</ExTime>
+          </ExDown>
         </ExTxt>
       </ExBody>
     </ExBox>

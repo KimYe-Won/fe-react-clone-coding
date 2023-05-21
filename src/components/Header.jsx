@@ -43,7 +43,6 @@ const HeaderContainer = styled.div `
   height: 55px;
   display: flex;
   justify-content: space-between;
-  /* flex-direction: row; */
 `
 
 const Title = styled.h1`
@@ -53,7 +52,6 @@ const Title = styled.h1`
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left :200px;
-
 `
 
 const Txt = styled.h1`

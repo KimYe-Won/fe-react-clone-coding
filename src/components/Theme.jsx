@@ -54,7 +54,7 @@ const HeaderB = styled.button`
   font-size:15px;
   margin-right: 5px;
   border: none;
-  border-radius: 0.2rem;
+  border-radius: 3.2px;
   cursor: pointer;
   
   &:hover {
@@ -71,9 +71,9 @@ const InB =styled.button`
   background-color:#6c757d;
   color: #fff;
 
-  font-size:15px;
+  font-size: 15px;
   border: none;
-  border-radius: 0.2rem;
+  border-radius: 3.2px;
   cursor: pointer;
 
   &:hover {

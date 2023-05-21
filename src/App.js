@@ -37,7 +37,7 @@ function App() {
     <GlobalStyle/>
     <Header/>
     <Theme/>
-    <Card/>
+    <Ex/>
     <Footer/>
     </>
   );
